@@ -1,3 +1,6 @@
 def capitalize_string(s):
-    """aaaaaa"""
+    """bbbbbb"""
     return s.upper()
+def capitalize_words(s):
+    """cccccc"""
+    return ' '.join(map(str.capitalize, s.split()))
